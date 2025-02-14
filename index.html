@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodFusion - Culinary Adventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">FoodFusion</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#container">Sign-In</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Embark on Gastronomic Journeys</h1>
+            <p>Join the ultimate flavor expedition with FoodFusion</p>
+            <button class="cta-button">Explore Our Menu</button>
+        </section>
+
+        
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="https://via.placeholder.com/150" alt="Fine Dining">
+                    <h3>Fine Dining</h3>
+                    <p>Experience exquisite flavors in an elegant setting.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://via.placeholder.com/150" alt="Catering">
+                    <h3>Catering</h3>
+                    <p>Let us bring our culinary magic to your events.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://via.placeholder.com/150" alt="Order Now">
+                    <h3>Order Now</h3>
+                    <p>Order Food or get 30 % Discount Voucher</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://via.placeholder.com/150" alt="Private Chef">
+                    <h3>Private Chef</h3>
+                    <p>Enjoy personalized dining experiences at home.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>FoodFusion is where culinary artistry meets innovation. We blend traditional techniques with modern twists to create unforgettable dining experiences.</p>
+                    <p>Our passionate team of chefs draws inspiration from global cuisines, local ingredients, and seasonal flavors to craft dishes that excite and delight.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x300" alt="FoodFusion Chef" id="chef-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+
+        <div id="container">
+            <div class="form-container">
+                <div class="toggle-buttons">
+                    <button id="signInBtn">Sign In</button>
+                    <button id="signUpBtn">Sign Up</button>
+                </div>
+                <form id="signInForm" class="active">
+                    <h2>Sign In</h2>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+                <form id="signUpForm">
+                    <h2>Sign Up</h2>
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Khushboo_FoodFusion. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
